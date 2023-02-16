@@ -1,0 +1,23 @@
+
+ = movAcc_straight ( h,encState ,orientation,x,y, len_mm, speed )
+ = movAcc_rotate
+ = movAcc_bow
+ = movPoint_turnNforward
+ = movPoint_bow
+ = movPoint_rotate
+ = movToAngle
+ = movDelta_straight
+ = movDelta_rotate
+ = movDelta_bow
+
+% ohne zu stoppen, nur mit Geschwindigkeit
+
+sensorToDistance
+sensorNrOrientation (sensorNR)
+sensorNrPosition (sensorNR)
+obstacleEstimation
+
+updatePosition
+
+difFuncGauss
+
